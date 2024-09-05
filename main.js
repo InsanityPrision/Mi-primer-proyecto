@@ -1,4 +1,4 @@
-let studentsName = ["Carlos", "Erik"];
+let studentsNames = ["Carlos", "Erik"];
 let studentsSurnames = ["Garcia", "Riquelme"];
 let studentsAge = [21, 18];
 
@@ -8,10 +8,10 @@ let coursesName = [
   "JavaScipt avanzado",
 ];
 let coursesLevel = ["básico", "intermedio", "avanzado"];
-let coursesDuration = ["4", "8", "14"];
+let coursesDuration = [4, 8, 14];
 
 let sumedAges = studentsAge[0] + studentsAge[1];
-let avargeAgeOfStudents = sumedAges / studentsName.length;
+let studentsAvargeAge = sumedAges / studentsNames.length;
 
 console.log(
   "INFORME DE LA ESCUELA" + "\n" + "\n",
@@ -47,7 +47,7 @@ console.log(
     "\n",
   "Alumnos:" + "\n",
   "- " +
-    studentsName[0] +
+    studentsNames[0] +
     " " +
     studentsSurnames[0] +
     ", " +
@@ -55,7 +55,7 @@ console.log(
     " años" +
     "\n",
   "- " +
-    studentsName[1] +
+    studentsNames[1] +
     " " +
     studentsSurnames[1] +
     ", " +
@@ -64,5 +64,5 @@ console.log(
     "\n" +
     "\n" +
     "\n",
-  "Edad media de los alumnos: " + avargeAgeOfStudents + " años"
+  "Edad media de los alumnos: " + studentsAvargeAge + " años"
 );
