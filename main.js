@@ -1,16 +1,16 @@
 let studentsNames = ["Carlos", "Erik"];
 let studentsSurnames = ["Garcia", "Riquelme"];
-let studentsAge = [21, 18];
+let studentsAges = [21, 18];
 
-let coursesName = [
+let coursesNames = [
   "Curso inicial a Python",
   "Gestión de sistemas de bases de datos",
   "JavaScipt avanzado",
 ];
-let coursesLevel = ["básico", "intermedio", "avanzado"];
-let coursesDuration = [4, 8, 14];
+let coursesLevels = ["básico", "intermedio", "avanzado"];
+let coursesDurations = [4, 8, 14];
 
-let sumedAges = studentsAge[0] + studentsAge[1];
+let sumedAges = studentsAges[0] + studentsAges[1];
 let studentsAvargeAge = sumedAges / studentsNames.length;
 
 console.log(
@@ -19,28 +19,28 @@ console.log(
   "Cursos:" + "\n",
 
   "- " +
-    coursesName[0] +
+    coursesNames[0] +
     " (" +
-    coursesLevel[0] +
+    coursesLevels[0] +
     ", " +
-    coursesDuration[0] +
+    coursesDurations[0] +
     " horas)" +
     "\n",
 
   "- " +
-    coursesName[1] +
+    coursesNames[1] +
     " (" +
-    coursesLevel[1] +
+    coursesLevels[1] +
     ", " +
-    coursesDuration[1] +
+    coursesDurations[1] +
     " horas)" +
     "\n",
   "- " +
-    coursesName[2] +
+    coursesNames[2] +
     " (" +
-    coursesLevel[2] +
+    coursesLevels[2] +
     ", " +
-    coursesDuration[2] +
+    coursesDurations[2] +
     " horas)" +
     "\n" +
     "\n" +
@@ -51,7 +51,7 @@ console.log(
     " " +
     studentsSurnames[0] +
     ", " +
-    studentsAge[0] +
+    studentsAges[0] +
     " años" +
     "\n",
   "- " +
@@ -59,7 +59,7 @@ console.log(
     " " +
     studentsSurnames[1] +
     ", " +
-    studentsAge[1] +
+    studentsAges[1] +
     " años" +
     "\n" +
     "\n" +
